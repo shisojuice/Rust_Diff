@@ -1,0 +1,35 @@
+body {
+  font-family: monospace;
+  padding: 5px;
+}
+
+#input_old {
+  max-height: 85vh;
+  max-width: 30vw;
+  min-height: 85vh;
+  min-width: 30vw;
+}
+
+#input_new {
+  max-height: 85vh;
+  max-width: 30vw;
+  min-height: 85vh;
+  min-width: 30vw;
+}
+
+#preview {
+  border: thick double black;
+  height: 85vh;
+  width: 30vw;
+  overflow: scroll;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}

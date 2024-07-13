@@ -1,0 +1,30 @@
+﻿<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Diff" />
+  <title>Diff</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <h1>Diff</h1>
+  <div class="main">
+    <div class="col">
+      <label for="input_old">old</label>
+      <textarea id="input_old" autofocus autocomplete="off" spellcheck="false"></textarea>
+    </div>
+    <div class="col">
+      <label for="input_new">new</label>
+      <textarea id="input_new" autofocus autocomplete="off" spellcheck="false"></textarea>
+    </div>
+    <textarea id="preview" disabled></textarea>
+  </div>
+  <br />
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>
